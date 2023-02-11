@@ -59,6 +59,7 @@ export const NumbersGuessGame = () => {
         <>
           <h2>{result} </h2>
           <p>{language.totalAttempt} {counter}</p>
+          <form><input type={"submit"} value={language.newGameButton}></input></form>
         </>
       :
         <form
@@ -67,7 +68,7 @@ export const NumbersGuessGame = () => {
           setCounter(counter + 1)
           checkNumber()
         }}>
-          <label>{language.maxNumberLabel} - {max}</label>
+          <label>{language.maxNumberLabel} 0 - {max}</label>
           <input type={"number"} min="0" max="1000000"  placeholder={language.maxNumber} onChange={e => setMax(e.target.value)}></input>
           
           <label>{language.guessNumberLabel}:</label>

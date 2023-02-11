@@ -8,6 +8,7 @@ export const en = {
     counter: "Attempt",
     totalAttempt: "Your total attempts score is",
     submitButton: "Confirm",
+    newGameButton: "New game!",
 
     correctNumber: "Congratulation .. its correct!",
     lowerNumber: "guess number is lower",

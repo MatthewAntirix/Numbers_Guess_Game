@@ -8,6 +8,7 @@ export const cz = {
     counter: "Pokus",
     totalAttempt: "Celkový počet tvých pokusů je",
     submitButton: "Potvrdit",
+    newGameButton: "Nová hra!",
 
     correctNumber: "Gratuluji .. trefa!",
     lowerNumber: "hádané číslo je menší",
