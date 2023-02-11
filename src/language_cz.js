@@ -1,9 +1,13 @@
 
 export const cz = {
     title: "Tipování náhodného čísla",
+    maxNumberLabel: "Maximální rozsah čísel",
     maxNumber: "Zvol maximální rozsah pro náhodné číslo (Limit 1.000.000)",
+    guessNumberLabel: "Tvé číslo",
     guessNumber: "Hádej číslo (Pouze kladná čísla)",
     counter: "Pokus",
+    totalAttempt: "Celkový počet tvých pokusů je",
+    submitButton: "Potvrdit",
 
     correctNumber: "Gratuluji .. trefa!",
     lowerNumber: "hádané číslo je menší",
