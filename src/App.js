@@ -72,7 +72,7 @@ export const NumbersGuessGame = () => {
           <input type={"number"} min="0" max="1000000"  placeholder={language.maxNumber} onChange={e => setMax(e.target.value)}></input>
           
           <label>{language.guessNumberLabel}:</label>
-          <input type={"number"} min="0" max={max}  placeholder={language.guessNumber} onChange={e => [setGuess(e.target.value)]}></input>
+          <input type={"number"} min="0" max={max}  placeholder={language.guessNumber} onChange={e => setGuess(e.target.value)}></input>
 
           <input type={"submit"} value={language.submitButton}></input>
 
